@@ -1,0 +1,25 @@
+.product__page {
+  padding-top: 20px;
+  &__imglist {
+    &__item {
+      width: 250px;
+      display: block;
+    }
+  }
+  &__maininfo {
+    width: 320px;
+  }
+  &__lengthlist {
+    margin-bottom: 10px;
+  }
+  &__colorList {
+    margin-bottom: 10px;
+  }
+  &__sizelist {
+    margin-bottom: 10px;
+  }
+  &__description {
+    height: fit-content;
+    white-space: pre-wrap;
+  }
+}

@@ -1,0 +1,10 @@
+.header {
+  background-color: #515361;
+}
+.nav {
+  &__wrap {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+}

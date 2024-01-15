@@ -1,0 +1,38 @@
+.order {
+  border: 3px solid lightgrey;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 10px;
+  &__client {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid lightgrey;
+    padding-bottom: 5px;
+  }
+  &__product {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__settings {
+    border-top: 3px solid lightgray;
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    &__delete {
+      border: none;
+      background-color: #515361;
+      border-radius: 5px;
+      padding: 5px;
+      color: #fff;
+      &:hover {
+        background-color: red;
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+.control-row {
+  //   height: 100px;
+  display: flex;
+  width: 600px;
+}
+.control-wrap {
+  display: block;
+}
+.control-img {
+  height: 200px;
+}
+.control-edit {
+  display: block;
+}
+.control-add {
+  background-color: #0d00ff;
+  color: white;
+  border: none;
+  width: 25px;
+  padding-bottom: 2px;
+  border-radius: 60px;
+  display: inline;
+}
+.control-add-head {
+  display: inline;
+}
+
+// .modal {
+//   position: fixed;
+//   z-index: 1;
+//   left: 0;
+//   top: 0;
+//   width: 100%;
+//   height: 100%;
+//   overflow: auto;
+//   background-color: rgba(0, 0, 0, 0.4);
+//   display: block;
+
+//   &__content {
+//     background-color: #fefefe;
+//     margin: 15% auto;
+//     padding: 20px;
+//     border: 1px solid #888;
+//     width: 80%;
+//   }
+// }
